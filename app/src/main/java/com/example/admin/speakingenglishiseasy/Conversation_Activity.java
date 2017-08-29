@@ -654,13 +654,7 @@ public class Conversation_Activity extends AppCompatActivity {
                 }else{
                     imgPause.setImageDrawable(getResources().getDrawable(R.drawable.ic_pause_circle_outline_black_24dp));
                 }
-               /* if(replaceColorVolume && pause && !isPreviousActivity ){ //lặp lại
-                    if(!mediaPlayer.isPlaying()){
-                        mediaPlayer.reset();
-                        setDataSourseMp3();
-                        mediaPlayer.start();
-                    }
-                }*/
+
             }
         },100);
 
