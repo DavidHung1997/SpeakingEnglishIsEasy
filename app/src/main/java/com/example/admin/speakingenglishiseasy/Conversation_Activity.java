@@ -446,10 +446,6 @@ public class Conversation_Activity extends AppCompatActivity {
     private void downloadMp3() {
 
 
-        dialog.setMessage("Downloading....");
-        //hàm này khi ta nhấn ra ngoài màn hình thì vẫn dg tải tiến trình
-        dialog.setCanceledOnTouchOutside(false);
-        dialog.show();
 
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(mp3));
         request.setTitle("File download");
