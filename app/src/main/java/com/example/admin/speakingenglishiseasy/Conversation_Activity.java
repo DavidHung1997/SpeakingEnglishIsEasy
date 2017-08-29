@@ -97,6 +97,7 @@ public class Conversation_Activity extends AppCompatActivity {
 
     //document : http://laptrinhandroid.edu.vn/huong-dan-su-dung-thread-va-handler-trong-android/
     //  http://www.androidhive.info/2012/03/android-building-audio-player-tutorial/#27
+    //https://thangcoder.com/lap-trinh-android/hoc-lap-trinh-android-can-ban/huong-dan-luu-tru-va-clone-code-tren-github-tren-android-studio
     private  class  MyTask extends AsyncTask<Void,Void,Integer>{
         @Override
         protected void onPreExecute() {
@@ -626,9 +627,6 @@ public class Conversation_Activity extends AppCompatActivity {
             replaceColorVolume = false;
             imgRelease.setImageDrawable(getResources().getDrawable(R.drawable.ic_autorenew_black_24dp));
         }
-
-
-
 
     }
 
