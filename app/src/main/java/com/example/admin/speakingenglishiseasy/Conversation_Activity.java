@@ -445,7 +445,7 @@ public class Conversation_Activity extends AppCompatActivity {
     }
 
     private void downloadMp3() {
-
+        //phải sửa lại cái down loadmanger
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(mp3));
         request.setTitle("File download");
 
