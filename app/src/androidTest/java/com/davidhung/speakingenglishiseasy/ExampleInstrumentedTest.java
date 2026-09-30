@@ -1,4 +1,4 @@
-package com.example.admin.speakingenglishiseasy;
+package com.davidhung.speakingenglishiseasy;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.admin.speakingenglishiseasy", appContext.getPackageName());
+        assertEquals("com.davidhung.speakingenglishiseasy", appContext.getPackageName());
     }
 }

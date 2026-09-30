@@ -10,7 +10,7 @@
        android:paddingLeft="@dimen/activity_horizontal_margin"
        android:paddingRight="@dimen/activity_horizontal_margin"
        android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.admin.speakingenglishiseasy.Conversation_Activity">
+    tools:context="com.davidhung.speakingenglishiseasy.Conversation_Activity">
 
     <LinearLayout
         android:orientation="horizontal"

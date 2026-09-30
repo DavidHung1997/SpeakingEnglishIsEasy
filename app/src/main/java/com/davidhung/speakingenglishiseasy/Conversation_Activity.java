@@ -1,4 +1,4 @@
-package com.example.admin.speakingenglishiseasy;
+package com.davidhung.speakingenglishiseasy;
 
 
 import android.animation.ArgbEvaluator;
@@ -42,9 +42,9 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.admin.adapter.ConversationAdapter;
-import com.example.admin.model.Conversation;
-import com.example.admin.model.Topic;
+import com.davidhung.adapter.ConversationAdapter;
+import com.davidhung.model.Conversation;
+import com.davidhung.model.Topic;
 
 import java.io.File;
 import java.io.IOException;
@@ -52,10 +52,10 @@ import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 
-import static com.example.admin.speakingenglishiseasy.Subject_Activity.DATABASE_NAME;
-import static com.example.admin.speakingenglishiseasy.Subject_Activity.database;
-import static com.example.admin.speakingenglishiseasy.Subject_Activity.isTopic;
-import static com.example.admin.speakingenglishiseasy.Topic_Activity.arrTopics;
+import static com.davidhung.speakingenglishiseasy.Subject_Activity.DATABASE_NAME;
+import static com.davidhung.speakingenglishiseasy.Subject_Activity.database;
+import static com.davidhung.speakingenglishiseasy.Subject_Activity.isTopic;
+import static com.davidhung.speakingenglishiseasy.Topic_Activity.arrTopics;
 
 
 public class Conversation_Activity extends AppCompatActivity {

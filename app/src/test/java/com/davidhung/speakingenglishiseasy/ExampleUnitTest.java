@@ -1,4 +1,4 @@
-package com.example.admin.speakingenglishiseasy;
+package com.davidhung.speakingenglishiseasy;
 
 import org.junit.Test;
 

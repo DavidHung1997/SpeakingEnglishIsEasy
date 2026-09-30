@@ -1,4 +1,4 @@
-package com.example.admin.adapter;
+package com.davidhung.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,9 +12,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.admin.model.Conversation;
-import com.example.admin.speakingenglishiseasy.Conversation_Activity;
-import com.example.admin.speakingenglishiseasy.R;
+import com.davidhung.model.Conversation;
+import com.davidhung.speakingenglishiseasy.Conversation_Activity;
+import com.davidhung.speakingenglishiseasy.R;
 
 import java.util.List;
 

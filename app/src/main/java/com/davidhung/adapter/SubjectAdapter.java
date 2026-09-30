@@ -1,4 +1,4 @@
-package com.example.admin.adapter;
+package com.davidhung.adapter;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
@@ -9,8 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.admin.model.Subject;
-import com.example.admin.speakingenglishiseasy.R;
+import com.davidhung.model.Subject;
+import com.davidhung.speakingenglishiseasy.R;
 
 import java.util.List;
 

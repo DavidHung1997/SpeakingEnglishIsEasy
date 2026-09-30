@@ -1,4 +1,4 @@
-package com.example.admin.speakingenglishiseasy;
+package com.davidhung.speakingenglishiseasy;
 
 import android.app.DownloadManager;
 import android.content.ActivityNotFoundException;
@@ -31,8 +31,8 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.example.admin.adapter.SubjectAdapter;
-import com.example.admin.model.Subject;
+import com.davidhung.adapter.SubjectAdapter;
+import com.davidhung.model.Subject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -179,8 +179,8 @@ public class Subject_Activity extends AppCompatActivity
 
     private String layDuongDanStore(){ //lấy đường dẫn lưu trữ
         //trả về thư mục gốc cài đặt cụ thể trỏ đến thu mục gốc của ta
-        //đó là : data/data/com.example.admin/databases/SpeakingEnglishIsEasy.sqlite
-        //getApplicationInfo().dataDir : data/data/com.example.admin/
+        //đó là : data/data/com.davidhung/databases/SpeakingEnglishIsEasy.sqlite
+        //getApplicationInfo().dataDir : data/data/com.davidhung/
         //DB_PATH_SUFFIX : databases/
         //DATABASE_NAME : SpeakingEnglishIsEasy.sqlite/
         return getApplicationInfo().dataDir + DB_PATH_SUFFIX + DATABASE_NAME;

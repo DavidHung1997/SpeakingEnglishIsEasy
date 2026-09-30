@@ -1,4 +1,4 @@
-package com.example.admin.model;
+package com.davidhung.model;
 
 import android.widget.ImageButton;
 import android.widget.ImageView;

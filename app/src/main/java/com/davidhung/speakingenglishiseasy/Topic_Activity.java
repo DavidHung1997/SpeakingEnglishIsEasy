@@ -1,4 +1,4 @@
-package com.example.admin.speakingenglishiseasy;
+package com.davidhung.speakingenglishiseasy;
 
 import android.app.DownloadManager;
 import android.content.Intent;
@@ -26,20 +26,20 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.admin.adapter.TopicAdapter;
-import com.example.admin.model.Subject;
-import com.example.admin.model.Topic;
+import com.davidhung.adapter.TopicAdapter;
+import com.davidhung.model.Subject;
+import com.davidhung.model.Topic;
 
 import java.security.PrivateKey;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 
-import static com.example.admin.speakingenglishiseasy.Conversation_Activity.mediaPlayer;
-import static com.example.admin.speakingenglishiseasy.Conversation_Activity.pause;
-import static com.example.admin.speakingenglishiseasy.Subject_Activity.DATABASE_NAME;
-import static com.example.admin.speakingenglishiseasy.Subject_Activity.database;
-import static com.example.admin.speakingenglishiseasy.Subject_Activity.isTopic;
+import static com.davidhung.speakingenglishiseasy.Conversation_Activity.mediaPlayer;
+import static com.davidhung.speakingenglishiseasy.Conversation_Activity.pause;
+import static com.davidhung.speakingenglishiseasy.Subject_Activity.DATABASE_NAME;
+import static com.davidhung.speakingenglishiseasy.Subject_Activity.database;
+import static com.davidhung.speakingenglishiseasy.Subject_Activity.isTopic;
 
 
 public class Topic_Activity extends AppCompatActivity {

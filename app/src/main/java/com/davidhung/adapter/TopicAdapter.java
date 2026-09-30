@@ -1,4 +1,4 @@
-package com.example.admin.adapter;
+package com.davidhung.adapter;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
@@ -9,12 +9,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.admin.model.Topic;
-import com.example.admin.speakingenglishiseasy.R;
+import com.davidhung.model.Topic;
+import com.davidhung.speakingenglishiseasy.R;
 
 import java.util.List;
 
-import static com.example.admin.speakingenglishiseasy.Subject_Activity.isTopic;
+import static com.davidhung.speakingenglishiseasy.Subject_Activity.isTopic;
 
 /**
  * Created by admin on 7/25/2017.
